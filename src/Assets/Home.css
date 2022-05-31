@@ -1,0 +1,325 @@
+.Navbar{
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+.Navbar > .bg{
+    position: absolute;
+    height: 80px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    background: #FFFFFF;
+}
+.Graviti_logo{
+    position: absolute;
+    width: 160px;
+    height: 69px;
+    left: 67px;
+    top: 6px;
+    background: url(Graviti\ Logo\ 1.png);
+}
+.Title{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+
+    position: absolute;
+    height: 24px;
+    left: 440px;
+    right: 440px;
+    top: 95px;
+}
+.Title > p{
+    /* typography / subtitle-lg--semibold--highEmphasis */
+
+    width: 560px;
+    height: 24px;
+
+    /* LG / subtitle */
+
+    font-family:'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    /* identical to box height, or 24px */
+
+    text-align: center;
+
+    /* $brandColorPrimary */
+
+    color: #1B31A8;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.Card{
+    position: absolute;
+    width: 560px;
+    height: 511px;
+    left: 776px;
+    top: 170px;
+}
+.Card > .container > img {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;    
+}
+.Card > .container{
+    /* container */
+
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    /* $neutralWhite */
+
+    background: #FFFFFF;
+    /* $level4 */
+
+    box-shadow: 0px 16px 32px rgba(30, 42, 50, 0.08);
+    border-radius: 8px;
+}
+.cta{
+/* CTA */
+
+
+position: absolute;
+width: 141px;
+height: 62px;
+left: 505px;
+top: 282px;
+
+
+/* $brandColorPrimary */
+
+background: #1B31A8;
+border-radius: 32px;
+border: none;
+}
+.cta:hover{
+    cursor: pointer;
+    background-color: #0079ff;
+    transition: 0.5s ease-in-out;
+}
+.cta > .button{
+/* button-lg--neutral-white */
+
+
+position: absolute;
+width: 75px;
+height: 20px;
+left: calc(50% - 75px/2 + 1px);
+top: calc(50% - 20px/2);
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+/* identical to box height, or 125% */
+
+text-align: center;
+
+/* $neutralWhite */
+
+color: #FFFFFF;
+}
+
+.origin{
+    position: absolute;
+    width: 272px;
+    height: 81px;
+    left: 156px;
+    top: 199px;    
+}
+.origin > .originlable{
+    position: absolute;
+    top: -40px;     
+}
+.origin > .originlable > p{
+    width: 91px;
+    height: 21px;
+    
+    /* LG / description */
+    
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    
+    
+    /* $blueGray900 */
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+    flex-grow: 0;
+}
+.origin > .oformelement{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    height: 56px;
+    
+    /* $neutralWhite */
+    
+    background: #FFFFFF;
+    /* $blueGray50 */
+    
+    border: 1px solid #E9EEF2;
+    border-radius: 4px;
+}
+.origin > .oformelement > input{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 25px;
+    bottom: 0px;
+}
+.origin > .oformelement > .oformstyle{
+    margin-top: 13px;
+    display: flex;
+    padding-left: 7px;
+}
+.origin > .oformelement > .oformstyle > img{
+    padding-right: 7px;
+    height: 25px;
+    width: 25px;
+}
+.origin > .oformelement > .oformstyle > .oinput{
+    border: 0;
+    outline: 0;
+}
+input[type=text]{
+    width: 220px;
+    height: 29px;
+    
+    /* LG / headingSmall */
+    
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 120%;
+    /* identical to box height, or 29px */
+    
+    
+    /* $blueGray600 */
+    
+    color: #4D6475;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+.destination{
+    position: absolute;
+    width: 272px;
+    height: 81px;
+    left: 156px;
+    top: 360px;    
+}
+.destination > .destinationlable{
+    position: absolute;
+    top: -40px;     
+}
+.destination > .destinationlable > p{
+    width: 91px;
+    height: 21px;
+    
+    /* LG / description */
+    
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    /* identical to box height, or 21px */
+    
+    
+    /* $blueGray900 */
+    
+    color: #000000;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: flex-start;
+    flex-grow: 0;
+}
+.destination > .dformelement{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    height: 56px;
+    
+    /* $neutralWhite */
+    
+    background: #FFFFFF;
+    /* $blueGray50 */
+    
+    border: 1px solid #E9EEF2;
+    border-radius: 4px;
+}
+.destination > .dformelement > input{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 25px;
+    bottom: 0px;
+}
+.destination > .dformelement > .dformstyle{
+    margin-top: 13px;
+    display: flex;
+    padding-left: 7px;
+}
+.destination > .dformelement > .dformstyle > img{
+    padding-right: 7px;
+    height: 25px;
+    width: 25px;
+}
+.destination > .dformelement > .dformstyle > .dinput{
+    border: 0;
+    outline: 0;
+}
+
+
+

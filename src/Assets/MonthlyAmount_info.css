@@ -1,0 +1,200 @@
+.MonthlyAmount_info{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 490px;
+    height: 158px;
+    left: 156px;
+    top: 459px;
+    
+    /* $blueGray50 */
+    
+    border: 1px solid #E9EEF2;
+    border-radius: 8px;
+}
+.white-bg{
+/* white-bg */
+
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 1.9%;
+
+/* $neutralWhite */
+
+background: #FFFFFF;
+border-radius: 8px;
+}
+.MonthlyAmount{
+    position: absolute;
+    height: 38px;
+    left: 26px;
+    right: 26px;
+    top: 3px;    
+}
+.MonthlyAmount_info > .MonthlyAmount > .MonthlyAmountc{
+/* Monthly amount */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+height: 24px;
+left: 0px;
+right: 192px;
+top: 7px;
+}
+.MonthlyAmount_info > .MonthlyAmount > .MonthlyAmountc > p{
+/* typography / subtitle-lg--highEmphasis */
+
+
+width: 246px;
+height: 24px;
+
+/* LG / subtitle */
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 120%;
+/* identical to box height, or 24px */
+
+display: flex;
+align-items: center;
+
+/* $blueGray900 */
+
+color: #1E2A32;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.MonthlyAmount_info > .MonthlyAmount > .Amount{
+/* Amount */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 152px;
+height: 38px;
+left: calc(50% - 152px/2 + 144px);
+top: -13px;
+}
+.MonthlyAmount_info > .MonthlyAmount > .Amount > p{
+/* typography / headingMedium-lg--highEmphasis */
+
+
+width: 152px;
+height: 38px;
+
+/* LG / headingMedium */
+
+font-family: 'Rubik';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 120%;
+/* or 38px */
+
+text-align: right;
+
+/* $brandColorSecondary */
+
+color: #0079FF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.MonthlyAmount_info > .Detail{
+    position: absolute;
+    height: 80px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+}
+.MonthlyAmount_info > .Detail > .Breakdown{
+/* Breakdown */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+height: 14px;
+left: 27px;
+right: 37px;
+top: 20px;
+}
+.MonthlyAmount_info > .Detail > .Breakdown > p{
+/* typography / caption--highEmphasis */
+
+
+width: 426px;
+height: 14px;
+
+/* caption */
+
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 120%;
+/* or 14px */
+
+
+/* $blueGray900 */
+
+color: #1E2A32;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+.MonthlyAmount_info > .Detail > .gray-bg{
+/* gray-bg */
+
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+/* $blueGray10 */
+
+background: #F4F8FA;
+}
