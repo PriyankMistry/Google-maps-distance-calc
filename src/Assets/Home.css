@@ -244,12 +244,15 @@ input[type=text]{
     align-self: stretch;
     flex-grow: 0;
 }
+.wayp{
+ top: 150px;
+}
 .destination{
     position: absolute;
     width: 272px;
     height: 81px;
     left: 156px;
-    top: 360px;    
+    top: 460px;    
 }
 .destination > .destinationlable{
     position: absolute;

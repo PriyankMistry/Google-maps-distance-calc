@@ -18,6 +18,9 @@ export default function App() {
   const [distance, setDistance] = useState("");
   const [originstate, setOriginstate] = useState('');
   const [destinationstate, setDestinationstate] = useState('');
+  const [wayp1, setWayp1] = useState('');
+  const [wayp2, setWayp2] = useState('');
+  const [wayp3, setWayp3] = useState('');
 
   const originRef = useRef()
   const destinationRef = useRef()
@@ -36,7 +39,23 @@ export default function App() {
       origin: originRef.current.value,
       destination: destinationRef.current.value,
       // eslint-disable-next-line no-undef
-      travelMode: google.maps.TravelMode.DRIVING
+      travelMode: google.maps.TravelMode.DRIVING,
+      waypoints: [
+        {
+          // eslint-disable-next-line no-undef
+          location: wayp1,
+          stopover: false
+      },
+      {
+        // eslint-disable-next-line no-undef
+        location: wayp2
+    },
+    {
+      // eslint-disable-next-line no-undef
+      location: wayp3
+    }
+      
+      ]
     })
     setDirectionsResponse(results)
     setDistance(results.routes[0].legs[0].distance.text)
@@ -60,6 +79,11 @@ export default function App() {
           <input type="text" className='oinput' placeholder='Origin' ref={originRef} onChange={(e) => {
             setOriginstate(e.target.value)
           }}/>
+        </form>
+        <form action="" className='wayp'>
+          <input type="text" className='dinput' placeholder='Waypoint 1' onChange={(e) => {setWayp1(e.target.value)}}/>
+          <input type="text" className='dinput' placeholder='Waypoint 2' onChange={(e) => {setWayp2(e.target.value)}}/>
+          <input type="text" className='dinput' placeholder='Waypoint 3' onChange={(e) => {setWayp3(e.target.value)}}/>
         </form>
       </div>
     </div>
